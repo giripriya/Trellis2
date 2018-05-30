@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'polls2',
     'polls4',
     'polls3',
+    'polls',
+    'polls1',
 ]
 
 MIDDLEWARE = [
@@ -54,6 +56,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'trellis.urls'
 
+SITE_ID = 1
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
